@@ -33,7 +33,7 @@
         class="form-control mr-sm-2"
         type="text"
         style="font-style: italic"
-        placeholder="Sausages, Cashew Nuts , Pickles , Masala, Vinegar"
+        placeholder="Pepperoni , Meat , Veggie , Chicken"
         aria-label="Search"
         data-autocompleturl="https://boozards.com/merchant-product/search"
       />
@@ -130,7 +130,7 @@
             id="product_name"
             class="form-control mr-sm-2"
             type="text"
-            placeholder="Sausages, Cashew Nuts , Pickles , Masala, Vinegar"
+            placeholder="Pepperoni , Meat , Veggie , Chicken"
             aria-label="Search"
             data-autocompleturl="https://boozards.com/merchant-product/search"
           />

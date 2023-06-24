@@ -20,7 +20,7 @@
               style="color: #fff; font-family: 'Oswald', sans-serif !important"
               :style="{ 'font-size': !isSmall ? '56px' : '46px' }"
             >
-              Looking for Goan Food. ?
+              What’s your Favorite Pizza. ?
             </h2>
             <!-- <h1
               style="color: rgb(255, 236, 75)"
