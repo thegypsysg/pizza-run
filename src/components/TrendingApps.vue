@@ -9,14 +9,9 @@
         align="center"
         class="header-title mb-n10"
         :class="{ 'mt-n4 mb-n8': !isSmall }"
-        style="
-          font-size: 56px;
-          font-style: normal;
-          font-weight: 700;
-          color: #7f7f7f !important;
-        "
+        style="font-size: 56px; font-style: normal; font-weight: 700"
       >
-        Trending Goan Items
+        Trending Pizza Items
       </h1>
       <!-- <div class="line-divider mt-10 mx-auto" /> -->
       <!-- <p class="header-title-sub" style="margin-top: 32px">
@@ -281,33 +276,33 @@ export default {
       trendingCard: [
         {
           img: require('@/assets/image/card-1.jpg'),
-          title: 'Goa Sausages',
-          tag: 'Sausages',
+          title: 'Veggie Pizza',
+          tag: 'Veggie',
         },
         {
           img: require('@/assets/image/card-2.jpg'),
-          title: 'Cashew Nuts',
-          tag: 'Cashew Nuts',
+          title: 'Chicken Pizza',
+          tag: 'Chicken',
         },
         {
           img: require('@/assets/image/card-3.jpg'),
-          title: 'Pickles',
-          tag: 'Pickles',
-        },
-        {
-          img: require('@/assets/image/card-2.jpg'),
-          title: 'Cashew Nuts',
-          tag: 'Cashew Nuts',
-        },
-        {
-          img: require('@/assets/image/card-5.jpg'),
-          title: 'Dried Fish',
-          tag: 'Dried Fish',
+          title: 'Pepperoni Pizza',
+          tag: 'Pepperoni',
         },
         {
           img: require('@/assets/image/card-1.jpg'),
-          title: 'Goa Sausages',
-          tag: 'Sausages',
+          title: 'Veggie Pizza',
+          tag: 'Veggie',
+        },
+        {
+          img: require('@/assets/image/card-2.jpg'),
+          title: 'Chicken Pizza',
+          tag: 'Chicken',
+        },
+        {
+          img: require('@/assets/image/card-3.jpg'),
+          title: 'Pepperoni Pizza',
+          tag: 'Pepperoni',
         },
       ],
       // filteredCards: [],
@@ -321,12 +316,12 @@ export default {
 
     trendingBtn() {
       return [
-        { title: 'Sausages', tag: 'Sausages' },
-        { title: 'Pickles', tag: 'Pickles' },
-        { title: 'Cashew Nuts', tag: 'Cashew Nuts' },
-        { title: 'Masala', tag: 'Masala' },
-        { title: 'Vinegar', tag: 'Vinegar' },
-        { title: 'Dried Fish', tag: 'Dried Fish' },
+        { title: 'Pepperoni', tag: 'Pepperoni' },
+        { title: 'Meat', tag: 'Meat' },
+        { title: 'Veggie', tag: 'Veggie' },
+        { title: 'Chicken', tag: 'Chicken' },
+        { title: '', tag: 'sdsa' },
+        { title: '', tag: 'dasdsa' },
       ];
     },
     isSmall() {

@@ -357,12 +357,12 @@ export default {
     ...mapState(['activeTag']),
     trendingBtn() {
       return [
-        { title: 'Sausages', tag: 'Sausages' },
-        { title: 'Pickles', tag: 'Pickles' },
-        { title: 'Cashew Nuts', tag: 'Cashew Nuts' },
-        { title: 'Masala', tag: 'Masala' },
-        { title: 'Vinegar', tag: 'Vinegar' },
-        { title: 'Dried Fish', tag: 'Dried Fish' },
+        { title: 'Pepperoni', tag: 'Pepperoni' },
+        { title: 'Meat', tag: 'Meat' },
+        { title: 'Veggie', tag: 'Veggie' },
+        { title: 'Chicken', tag: 'Chicken' },
+        { title: '', tag: 'sdasda' },
+        { title: '', tag: 'sdasdsa' },
       ];
     },
   },
