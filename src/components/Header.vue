@@ -155,13 +155,12 @@
           </v-btn>
           <v-slide-group v-model="activeTag">
             <v-slide-group-item
-              v-for="(btn, index) in trendingBtn"
+              v-for="btn in trendingBtn"
               :key="btn.tag"
               v-slot="{ isSelected }"
               :value="btn.tag"
             >
               <v-btn
-                v-if="index !== 0 && btn.title != 'View All'"
                 class="sub-menu-btn"
                 :class="{
                   active: isSelected,
